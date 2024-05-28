@@ -21,7 +21,7 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-
+// min 00:59:20 
   return (
     <>
       {links.map((link) => {
