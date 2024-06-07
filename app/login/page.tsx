@@ -2,6 +2,12 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import LoginForm from '@/app/ui/login-form';
  
 
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Login',
+};
+
 // actualizar las variables de entorno en proyecto vrcer, ver guia
 export default function LoginPage() {
   return (
